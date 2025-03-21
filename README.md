@@ -13,6 +13,7 @@ Este projeto é ideal para quem deseja se aprofundar no uso do Docker em ambient
 - **Docker**: Plataforma para automação de containers.
 - **Docker Compose**: Ferramenta para definir e rodar aplicativos multi-containers.
 - **Nginx stable-alpine**: Servidor web para servir a aplicação Laravel.
+- **MySQL**: Sistema de gerenciamento de banco de dados relacional.
 
 ## 🚀 Como Rodar o Projeto
 
