@@ -1,5 +1,3 @@
-# Laravel-PHP-docker
-
 # Projeto Laravel com Docker e Docker Compose
 
 Este repositório contém um projeto PHP utilizando o **Laravel** com **Docker** e **Docker Compose**. O objetivo principal deste projeto é fornecer um ambiente controlado e reutilizável para desenvolvimento de aplicações PHP, explorando as melhores práticas de containers e orquestração com Docker.
