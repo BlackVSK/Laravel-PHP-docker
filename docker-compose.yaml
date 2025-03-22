@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  php:
+    container_name: php
+    build: 
+      context: ./dockerfiles
+      dockerfile: php.dockerfile
+    volumes:
+      - ./src:/var/www/html:delegated
+
+  nginx:
+    container_name: nginx
+    image: 'nginx:stable-alpine'
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - '8000:80'
